@@ -19,8 +19,10 @@ void printLines(const vector<string>& lines) {
 void writeToFile(const vector<string>& lines) {
     ofstream out;
     out.open("file2.txt");
-    out << "Hello world!" << endl;
-    // Пока оставляем пустой
+    for (const auto& line : lines){
+        out << line << endl;
+    }
+    out.close();
 }
 
 int main() {
