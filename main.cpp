@@ -7,14 +7,15 @@ using namespace std;
 
 // Чтение строк из файла в вектор
 void readFromFile(vector<string>& lines) {
-    ifstream in("file1.txt"){
-        if (in.is_open()){
-            while (getline(in, line)){
-                lines.push_back(line);
-            }
-        }
-        in.close()
+    ifstream in("file1.txt")
+
+    string line;
+    while (getline(in, line)){
+        lines.push_back(line);
     }
+
+    in.close();
+
 }
 
 // Вывод строк на экран
