@@ -10,9 +10,11 @@ void readFromFile(vector<string>& lines) {
     // Пока оставляем пустой
 }
 
-// Функция 2: Вывод строк на экран
+// Вывод строк на экран
 void printLines(const vector<string>& lines) {
-    // Пока оставляем пустой
+    for (const auto& line : lines) {
+        cout << line << endl;
+    }
 }
 
 // Функция 3: Запись строк в файл
