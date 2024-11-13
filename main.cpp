@@ -26,7 +26,12 @@ void printLines(const vector<string>& lines) {
 
 // Функция 3: Запись строк в файл
 void writeToFile(const vector<string>& lines) {
-    // Пока оставляем пустой
+    ofstream out;
+    out.open("file2.txt");
+    for (const auto& line : lines){
+        out << line << endl;
+    }
+    out.close();
 }
 
 int main() {
