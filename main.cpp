@@ -5,9 +5,16 @@
 
 using namespace std;
 
-// Функция 1: Чтение строк из файла в вектор
+// Чтение строк из файла в вектор
 void readFromFile(vector<string>& lines) {
-    // Пока оставляем пустой
+    ifstream in("file1.txt"){
+        if (in.is_open()){
+            while (getline(in, line)){
+                lines.push_back(line);
+            }
+        }
+        in.close()
+    }
 }
 
 // Функция 2: Вывод строк на экран
