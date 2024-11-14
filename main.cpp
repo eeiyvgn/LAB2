@@ -10,7 +10,7 @@ void readFromFile(vector<string>& lines) {
     // Пока оставляем пустой
 }
 
-// Вывод строк на экран
+  // Вывод строк на экран
 void printLines(const vector<string>& lines) {
     for (const auto& line : lines) {
         cout << line << endl;
