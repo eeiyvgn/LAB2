@@ -5,9 +5,9 @@
 
 using namespace std;
 
-// Чтение строк из файла в вектор
+// Г—ГІГҐГ­ГЁГҐ Г±ГІГ°Г®ГЄ ГЁГ§ ГґГ Г©Г«Г  Гў ГўГҐГЄГІГ®Г°
 void readFromFile(vector<string>& lines) {
-
+  
     ifstream in("file1.txt");
     string line;
     while (getline(in, line)){
@@ -15,14 +15,15 @@ void readFromFile(vector<string>& lines) {
     }
 
     in.close();
+
 }
 
-// Вывод строк на экран
+// Г‚Г»ГўГ®Г¤ Г±ГІГ°Г®ГЄ Г­Г  ГЅГЄГ°Г Г­
 void printLines(const vector<string>& lines) {
 
 }
 
-// Функция 3: Запись строк в файл
+// Г”ГіГ­ГЄГ¶ГЁГї 3: Г‡Г ГЇГЁГ±Гј Г±ГІГ°Г®ГЄ Гў ГґГ Г©Г«
 void writeToFile(const vector<string>& lines) {
 
 }
