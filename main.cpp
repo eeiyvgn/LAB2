@@ -15,7 +15,6 @@ void readFromFile(vector<string>& lines) {
     }
 
     in.close();
-
 }
 
 // Вывод строк на экран
