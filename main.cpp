@@ -18,7 +18,11 @@ void readFromFile(vector<string>& lines) {
 
 }
 
+
+// ����� ����� �� �����
+=======
 // Âûâîä ñòðîê íà ýêðàí
+
 void printLines(const vector<string>& lines) {
 
 }
