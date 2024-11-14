@@ -7,7 +7,7 @@ using namespace std;
 
 // Чтение строк из файла в вектор
 void readFromFile(vector<string>& lines) {
-    ifstream in("file1.txt")
+    ifstream in("file1.txt");
 
     string line;
     while (getline(in, line)){
@@ -20,19 +20,12 @@ void readFromFile(vector<string>& lines) {
 
 // Вывод строк на экран
 void printLines(const vector<string>& lines) {
-    for (const auto& line : lines) {
-        cout << line << endl;
-    }
+
 }
 
 // Функция 3: Запись строк в файл
 void writeToFile(const vector<string>& lines) {
-    ofstream out;
-    out.open("file2.txt");
-    for (const auto& line : lines){
-        out << line << endl;
-    }
-    out.close();
+
 }
 
 int main() {
